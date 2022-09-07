@@ -1,0 +1,28 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+#submitButton{
+    font-size: 30px; 
+    background-color: rgb(107, 208, 233); 
+    border-radius: 10px;
+}
+
+#avatar{
+    font-size: 25px;
+}
+
